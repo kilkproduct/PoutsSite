@@ -1,2 +1,3 @@
-# PoutsSite
-The website for Pouts.
+# Pouts site
+
+Our Website: https://kilkproduct.github.io/PoutsSite/

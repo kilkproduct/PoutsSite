@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f1820">
+  <meta name="description" content="Pouts brings practical utility, moderation, and community tools to your Discord server.">
+  <title>Pouts — A calmer way to run your Discord server</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/pfp.jpg" type="image/jpeg">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html" aria-label="Pouts home"><img class="logo-mark" src="assets/pfp.jpg" alt=""></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="commands.html">Commands</a>
+      <a href="status.html">Status</a>
+      <a href="docs.html">Docs</a>
+      <a class="nav-cta" href="https://discord.com/oauth2/authorize?client_id=1557368597746028575" target="_blank" rel="noopener noreferrer">Add Pouts <svg class="discord-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.7 5.2a18 18 0 0 0-4.4-1.4l-.6 1.2a16 16 0 0 0-5.4 0l-.6-1.2a18 18 0 0 0-4.4 1.4C1.5 9.2.7 13 .8 16.8a18 18 0 0 0 5.4 2.7l1.2-2a11 11 0 0 1-1.9-.9l.5-.4a12 12 0 0 0 12 0l.5.4a11 11 0 0 1-1.9.9l1.2 2a18 18 0 0 0 5.4-2.7c.1-4.4-.8-8.2-3.5-11.6ZM8.8 14.5c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Zm6.4 0c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Z"/></svg></a>
+    </nav>
+  </div>
+</header>
+
+<main class="site-main">
+  <section class="hero">
+    <div class="hero-copy">
+      <h1>Pouts.<br><span>The Everyday Bot.</span></h1>
+      <p>Commands for Moderation, Fun, and more.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="https://discord.com/oauth2/authorize?client_id=1557368597746028575" target="_blank" rel="noopener noreferrer">Add Pouts to Discord <svg class="discord-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.7 5.2a18 18 0 0 0-4.4-1.4l-.6 1.2a16 16 0 0 0-5.4 0l-.6-1.2a18 18 0 0 0-4.4 1.4C1.5 9.2.7 13 .8 16.8a18 18 0 0 0 5.4 2.7l1.2-2a11 11 0 0 1-1.9-.9l.5-.4a12 12 0 0 0 12 0l.5.4a11 11 0 0 1-1.9.9l1.2 2a18 18 0 0 0 5.4-2.7c.1-4.4-.8-8.2-3.5-11.6ZM8.8 14.5c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Zm6.4 0c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Z"/></svg></a>
+        <a class="button button-secondary" href="commands.html">Browse commands</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section-block" aria-labelledby="features-title">
+    <div class="section-heading">
+      <p class="eyebrow">Built for the community.</p>
+      <h2 id="features-title">The only bot your community actually needs.</h2>
+      <p>Keep it simple, easy, and fast.</p>
+    </div>
+    <div class="module-grid">
+      <article class="module-card">
+        <span class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 1 4 16.5v-11Z"/><path d="M4 16.5A2.5 2.5 0 0 1 6.5 14H20M8 7h8M8 10h6"/></svg></span>
+        <h3>Everyday Use</h3>
+        <p>Find the right command without digging around.</p>
+      </article>
+      <article class="module-card">
+        <span class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s7-3.5 7-9V5l-7-3-7 3v7c0 5.5 7 9 7 9Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <h3>Moderation</h3>
+        <p>Purge recent messages or timeout a user.</p>
+      </article>
+      <article class="module-card">
+        <span class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14A2.5 2.5 0 0 1 21.5 7v9a2.5 2.5 0 0 1-2.5 2.5h-6l-5 3v-3H5A2.5 2.5 0 0 1 2.5 16V7A2.5 2.5 0 0 1 5 4.5Z"/><path d="M7 9h10M7 13h7"/></svg></span>
+        <h3>Polls</h3>
+        <p>Get members to decide.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="command-callout" aria-labelledby="commands-title">
+    <div>
+      <p class="eyebrow">Looking for a specific command?</p>
+      <h2 id="commands-title">Look at our commands</h2>
+      <p>All commands listed here.</p>
+    </div>
+    <a class="button button-secondary" href="commands.html">View all commands <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  </section>
+
+  <section class="closing-cta invite-cta" id="invite" aria-labelledby="invite-title">
+    <div>
+      <p class="eyebrow">Add Pouts to Discord</p>
+      <h2 id="invite-title">Invite Pouts to your server.</h2>
+      <p>Give your community fun, moderation, and more in one bot.</p>
+    </div>
+    <div class="invite-action">
+      <a class="button button-primary" href="https://discord.com/oauth2/authorize?client_id=1557368597746028575" target="_blank" rel="noopener noreferrer">
+        <svg class="discord-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.7 5.2a18 18 0 0 0-4.4-1.4l-.6 1.2a16 16 0 0 0-5.4 0l-.6-1.2a18 18 0 0 0-4.4 1.4C1.5 9.2.7 13 .8 16.8a18 18 0 0 0 5.4 2.7l1.2-2a11 11 0 0 1-1.9-.9l.5-.4a12 12 0 0 0 12 0l.5.4a11 11 0 0 1-1.9.9l1.2 2a18 18 0 0 0 5.4-2.7c.1-4.4-.8-8.2-3.5-11.6ZM8.8 14.5c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Zm6.4 0c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Z"/></svg>
+        Add Pouts to Discord
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <a class="logo" href="index.html" aria-label="Pouts home"><img class="logo-mark" src="assets/pfp.jpg" alt=""><span>Pouts</span></a>
+      <span class="footer-tagline">A bot for your Discord community.</span>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="commands.html">Commands</a><a href="status.html">Status</a><a href="docs.html">Docs</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+    <p class="footer-note">By using Pouts or this website, you agree to the <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+</footer>
+
+<div class="consent" id="consent" role="region" aria-label="Cookie preferences" hidden>
+  <div class="consent-inner">
+    <p>This site does not use analytics or advertising cookies. We are a privacy based community.</p>
+    <div class="consent-actions">
+      <a class="privacy-link" href="privacy.html">Privacy policy</a>
+      <button class="button button-secondary" type="button" id="consent-essential">Necessary only</button>
+      <button class="button button-primary" type="button" id="consent-accept">Accept</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
